@@ -1,0 +1,297 @@
+*{
+    margin: 10;
+    padding: 10;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.caja-padre{
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.header{
+  background-color: #000000;
+  margin: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.navbar{
+  background-color: rgb(6, 59, 102);
+  width: 97%;
+  height: 50px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  align-self: center;
+}
+
+.logo{
+  background:#c23131;
+  width: 10%;
+  height: 20px;
+  padding: 10px;
+  margin: 20px;
+  flex:1 1 auto;
+ }
+
+.menu{
+  background:#c23131;
+  width: 90%;
+  height: 20px;
+  padding: 10px;
+  margin: 20px;
+  flex:5 1 auto;
+ }
+
+.social{
+  background:#c23131;
+  width: 10%;
+  height: 20px%;
+  padding: 10px;
+  margin: 20px;
+  display: flex;
+  flex:1 1 auto;
+ }
+
+.text {
+  background-color: #ff9634;
+  width:97%;
+  height: 50px;
+  padding: 5px;
+  margin-bottom: 20px;
+  display: flex;
+  text-align: center;
+  align-self: center;
+  flex:1 1 auto;
+}
+
+.h1{
+  background-color: #fffc41;
+  width: 20%;
+  height: 20px;
+  padding: 5px;
+  margin: 20px;
+  align-self: center;
+  flex:1 1 auto;
+}
+
+.section{
+  background-color: #000000;
+  height: 300px;
+  margin: 20px;
+  display:flex;
+}
+
+.articles{
+  background-color: #422f5c;
+  width:97%;
+  height: 86%;
+  padding: 20px;
+  margin: 20px;
+  flex-flow: row wrap;
+  display: flex;
+  flex:2 1 auto;
+}
+
+.article{
+  background-color: #000caf;
+  width:20%;
+  height: 20px;
+  padding: 5px;
+  margin: 20px;
+  text-align: center;
+  align-self:stretch;
+  flex:1 1 40%;
+  display: flex;
+}
+
+.navegacion{
+  background-color: rgb(59, 167, 255);
+  width: 97%;
+  height: 20px;
+  margin: 20px;
+}
+
+.aside {
+  background-color: #dd335e;
+  width:30%;
+  height: 258px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  display: flex;
+  align-self: flex-start;
+  flex:1 1 auto;
+  justify-content: flex-start;
+  flex-flow: column;
+}
+
+.barra{
+  background-color: #fffc60;
+  width:97%;
+  height: 20px;
+  padding: 5px;
+  margin: 5px;
+  align-self: center;
+}
+
+.footer{
+  background-color:#1f1111;
+  height: 60px;
+  margin: 20px;
+  display: flex;
+  text-align: center;
+  flex:1 1 auto;
+  justify-content: center;
+  flex-flow: column nowrap;
+}
+
+.pie-pagina{
+  background-color: #bbbe03;
+  width:97%;
+  height: 20px;
+  padding: 5px;
+  margin: 20px;
+  align-self: center;
+  flex:1 1 auto;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+.navbar{
+  width: 90%;
+}
+
+.text{
+  width: 90%;
+}
+
+.section{
+  background-color: rgb(183, 255, 49);
+  width: 95%;
+  height: auto;
+  flex-flow: column nowrap;
+}
+
+.articles{
+  width: 90%;
+  padding: 10px;
+  margin: 35px;
+}
+
+.aside{
+  width: 90%;
+  padding: 10px;
+  height: auto;
+  margin: 1px 35px 35px 35px;
+}
+
+.pie-pagina{
+  width: 90%;
+}
+
+}
+
+
+@media (max-width: 767px) {
+
+.navbar{
+  width: 90%;
+  height: auto;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  flex-flow: column nowrap;
+}
+
+.logo{
+  width: 90%;
+  height: 20px;
+  padding: 10px;
+  margin: 20px;
+}
+       
+.menu{
+  width: 90%;
+  height: 20px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.social{
+  width: 90%;
+  height: 20px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.text{
+  width: 90%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.section{
+  background-color: rgb(216, 240, 0);
+  width: 90%;
+  height: auto;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  flex-flow: column nowrap; 
+  flex-direction: column;
+  display: flex;
+  align-self: center; 
+   align-items: center; 
+}
+
+.articles{
+  background-color: rgb(34, 74, 126);
+  width: 90%;
+  flex-direction: column;
+}
+
+.article{
+  background-color: #4ea7c2;    
+  width: 90%;
+  padding: 10px;
+  margin-left :12px;
+}
+
+.navegacion{
+  background-color: #74f1fa;
+  width: 90%;
+  margin-left :12px;
+}
+
+
+.aside{
+  background-color: #fd6a6a;
+  width: 90%;
+  height: 100%;
+  margin: 20px;
+  align-self: center;
+}
+
+.barra{
+  background-color: #fcda91
+}
+
+.footer{
+  width: 90%;
+}
+
+.pie-pagina{
+  background-color: #dbd06e;
+  width: 90%;
+}
+
+}
